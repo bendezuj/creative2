@@ -1,15 +1,37 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>Hello</h1>
+<html lang="en">
 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <title>Creative Project 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-    <script src="script.js" charset="utf-8"></script>
+<body>
 
-  </body>
+  <h1 class="title">Chuck Norris jokes 'cuz why not :)</h1>
+
+  <form>
+    <label class="prompt">Here for the mighty Chuck Norris jokes? We have an insane amount of jokes, but if your number is Norris insane level you might break this. (less than 620, diff than 7-11 as far as I can tell. I know we might switch API's but not today ;) </label>
+    <h2>Want some more fun? Add a name of a friend and we'll make it happen. Not feeling it? leave it empty.</h2>
+    <input class="box form-control-lg" id="nameInput" placeholder="Who's the victim??" type="text"></input><br />
+    <input class="testbutton" id="nameSubmit" type="submit" value="Submit"></input><br>
+
+    <div id="nameShow">
+
+    </div>
+
+    <input class="box form-control-lg" id="jokeInput" placeholder="Bet you'll laugh..." type="text"></input><br />
+    <input class="testbutton" id="jokesSubmit" type="submit" value="Submit"></input><br>
+
+  </form>
+
+  <div id="jokeResults">
+  </div>
+
+  <script src="script.js" charset="utf-8"></script>
+
+</body>
+
 </html>

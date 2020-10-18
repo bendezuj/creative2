@@ -1,3 +1,46 @@
 body{
+  background-color: #eeeeee;
   text-align: center;
+}
+p{
+  font-family: 'Piazzolla', serif;
+}
+.title{
+  font-size: 85px;
+  margin: 55px 25px 45px 25px;
+  font-family: 'Freckle Face', cursive;
+}
+.prompt{
+  font-size: 30px;
+  font-family: 'Chivo', sans-serif;
+  margin: 29px 25px 25px 25px;
+}
+.box{
+  font-size: 32px;
+  font-family: 'Caveat', cursive;
+}
+.testbutton {
+  margin: 25px 25px 25px 25px !important;
+  font-family: 'Chivo', sans-serif;
+  font-weight: bold;
+  color: #F2F2F2 !important;
+  font-size: 20px;
+  text-shadow: 0px 1px 3px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  background: black;
+  margin: 0 auto 50px auto;
+}
+.testbutton:hover {
+  color: white !important;
+  background: #212121;
+}
+#jokeResults h2{
+  font-family: 'Piazzolla', serif;
+}
+#nameShow h2{
+  font-family: 'Piazzolla', serif;
 }
