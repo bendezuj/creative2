@@ -9,7 +9,8 @@ document.getElementById("nameSubmit").addEventListener("click", function(event) 
         name = "";
       }
       else{
-        name = val;
+        name = val.toUpperCase();
+        debugger
       }
   document.getElementById("nameShow").innerHTML = name;
 });
@@ -40,7 +41,7 @@ document.getElementById("jokesSubmit").addEventListener("click", function(event)
       console.log(json);
       let results = "";
       results += "<p>"
-      results += "<p>Here :)  ->" + json.value.joke + "</p>"
+      results += "<p>" + json.value.joke + "</p>"
       results += "</p>";
       document.getElementById("jokeResults").innerHTML = results;
     });

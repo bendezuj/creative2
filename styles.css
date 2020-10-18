@@ -38,14 +38,38 @@ p{
   color: white !important;
   background: #212121;
 }
-#jokeResults h2{
-  font-size: 55px;
+.JK{
+  font-size: 55px !important;
   font-family: 'Piazzolla', serif;
+  margin-bottom: 25px;
 }
-#nameShow h2{
-  font-size: 55px;
+.NS{
+  font-size: 55px !important;
   font-family: 'Piazzolla', serif;
+  margin-bottom: 25px;
 }
 .middleI{
   margin-bottom: 25px;
+}
+
+.bottom-container{
+  vertical-align: middle;
+  text-align: center;
+  background-color: #e8e8e8;
+  line-height: 2;
+  padding: 25px 0 20px 0;
+}
+.social{
+  color:  #1b1b2f;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  margin: 25px 25px 25px 25px;
+  vertical-align: middle;
+  font-family: 'Courier Prime', monospace;
+}
+.copyright{
+  color: #1b1b2f;
+  font-size: 0.5;
+  padding: 20px 0;
+  font-family: 'Courier Prime', monospace;
 }
