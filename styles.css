@@ -55,12 +55,12 @@ p{
 .bottom-container{
   vertical-align: middle;
   text-align: center;
-  background-color: #e8e8e8;
+  background-color: black;
   line-height: 2;
   padding: 25px 0 20px 0;
 }
 .social{
-  color:  #1b1b2f;
+  color:  white;
   padding-top: 15px;
   padding-bottom: 25px;
   margin: 25px 25px 25px 25px;

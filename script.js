@@ -10,7 +10,6 @@ document.getElementById("nameSubmit").addEventListener("click", function(event) 
       }
       else{
         name = val.toUpperCase();
-        debugger
       }
   document.getElementById("nameShow").innerHTML = name;
 });
@@ -33,7 +32,6 @@ document.getElementById("jokesSubmit").addEventListener("click", function(event)
   else{
     url = "http://api.icndb.com/jokes/" + value;
   }
-  debugger
   fetch(url)
     .then(function(response) {
       return response.json();
