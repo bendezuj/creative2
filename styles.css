@@ -1,5 +1,5 @@
 body{
-  background-color: #eeeeee;
+  background-color: #51adcf;
   text-align: center;
 }
 p{
@@ -39,8 +39,13 @@ p{
   background: #212121;
 }
 #jokeResults h2{
+  font-size: 55px;
   font-family: 'Piazzolla', serif;
 }
 #nameShow h2{
+  font-size: 55px;
   font-family: 'Piazzolla', serif;
+}
+.middleI{
+  margin-bottom: 25px;
 }

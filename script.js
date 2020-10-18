@@ -1,5 +1,6 @@
 // 619 jokes
 // Jokes 7 through 11 don't exist. There may be more.
+console.log("hello");
 let name = "";
 document.getElementById("nameSubmit").addEventListener("click", function(event) {
       event.preventDefault();
